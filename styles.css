@@ -1,0 +1,75 @@
+body{
+    margin:0px;
+}
+.bg-container{
+    padding-left:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    min-height:100vh;
+    background-image:url("https://c1.wallpaperflare.com/preview/972/400/963/money-home-coin-investment.jpg");
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+    align-items:flex-start;
+    
+}
+.heaing{
+    font-size:32px;
+    font-family:"Roboto";
+}
+.para{
+    font-size:22px;
+    font-family:"Roboto";
+}
+.btn{
+    background-color:#1E90FF;
+    color:#ffffff;
+    padding:10px;
+    border:none;
+    border-radius:4px;
+}
+.form-styling{
+    display:flex;
+    flex-direction:column;
+    flex-grow:0;
+    justify-content:center;
+    align-items:flex-start;
+    
+}
+label{
+    margin-bottom:10px;
+    font-family:"Roboto";
+}
+input{
+    margin-bottom:10px;
+}
+.result-page-bg{
+    min-height:100vh;
+    background-image:url("https://img.freepik.com/free-photo/world-habitat-day-close-up-picture-pile-coins-sag-coin_1150-26741.jpg?size=626&ext=jpg&ga=GA1.1.1362353309.1698571764&semt=sph");
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center; 
+}
+.card-container{
+    background-color:white;
+    border-radius:10px;
+    padding:10px;
+}
+.result-page-heading{
+  margin-top:0px;
+    font-size:32px;
+    font-family:"Roboto";
+  color:#60F9E9;
+}
+.result-text-container{
+    background-color:#00c04b;
+    padding:5px;
+}
+.loan-amount-val{
+  color:#ffffff;
+  font-size:32px;
+    font-family:"Roboto";
+}

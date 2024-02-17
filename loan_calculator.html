@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static',filename='CSS/styles.css')}}"/></head>
+<body>
+    <div class="bg-container">
+        <h1 class="heading">LOAN SANCTION AMOUNT PREDICTION</H1>
+        <P  class="para">predict your loan sanction amount</p>
+            <form action='/predict' method="post" class="form-styling">
+                <label  for="age"/>Age:</label>
+                <input name="age" id="age" type="number" min="0" max="100" step="any" required="required"/>
+                <label  for="income"/>Monthly Income(USD):</label>
+                <input name="income" id="income" type="number" min="0" max="10000" placeholder="0 to 100000 in single decimal" required="required" step="0.01"/>
+                <label for="credit_score"/>Credit Score:</label>
+                <input name="credit-score" id="credit-score" type="number" min="0" max="1000" placeholder="0 to 1000 in single decimal" required="required" step="0.01"/>
+                <label for="current_loan_expenses"/>Current Loan Expenses (USD):</label>
+                <input name="current_loan_expenses" id="current_loan_expenses" type="number" min="0" max="20000" placeholder="0 to 20000 in single decimal" required="required" step="0.01"/>
+                <label  for="gender"/>Gender:</label>
+                <input name="gender" id="gender" type="text" required="required"/>
+                <label for="profession"/>Profession:</label>
+                <input name="profession" id="profession" type="text" required="required"/>
+                <button type="submit" class="btn">Calculate Loan Amount</button>
+            </form>
+    </div>
+</body>
+</html>
